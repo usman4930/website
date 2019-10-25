@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/" method="GET">
+        <p> Username
+            <input type="text" name="username" size="30" maxlength="30" placeholder="PLEASE ENTR YOUR NAME">
+        </p>
+        <p> Password
+            <input type="text" name="username" size="30" maxlength="30" placeholder="PLEASE ENTR YOUR Password">
+        </p>
+        <p> PLEASE SELECT YOUR FAVORITE GAME:
+            <input type="radio" name="GAME" value="CRICKET" checked="checked">CRICKET
+            <input type="radio" name="GAME" value="FOOTBALL">FOOTBALL
+            <input type="radio" name="GAME" value="HOCKEY">HOCKEY
+        </p>
+        <p> PLEASE SELECT YOUR FAVORITE GAME:
+            <input type="checkbox" name="GAME" value="CRICKET" checked="checked">CRICKET
+            <input type="checkbox" name="GAME" value="FOOTBALL">FOOTBALL
+            <input type="checkbox" name="GAME" value="HOCKEY">HOCKEY
+        </p>
+        <p>
+            PLEASE SELECT YOUR FAVORITE GAME:
+            <select name="game" id="game">
+                <option value="cricket" selected="selected">CRICKET</option>
+                <option value="FOOTBALL">FOOTBALL</option>
+                <option value="HOCKEY">HOCKEY</option>
+                <option value="TENIS">TENIS</option>
+            </select>
+            <form action="http://www.example.com/upload.php" method="post">
+                <p>Upload your song in MP3 format:</p>
+                <input type="file" name="user-song" /><br />
+                <input type="submit" value="Upload" />
+                <fieldset>
+                    <legend>Contact details</legend>
+                    <label>Email:<br />
+                    <input type="text" name="email" /></label><br />
+                    <label>Mobile:<br />
+                    <input type="text" name="mobile" /></label><br />
+                    <label>Telephone:<br />
+                    <input type="text" name="telephone" /></label>
+                    </fieldset>
+            </form>
+        </p>
+
+
+    </form>
+</body>
+
+</html>
